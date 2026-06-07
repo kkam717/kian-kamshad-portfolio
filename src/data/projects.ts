@@ -11,6 +11,12 @@ export type Project = {
   liveUrl?: string;
   githubUrl?: string;
   pdfUrl?: string;
+  image?: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
   featured: boolean;
 };
 
@@ -32,6 +38,12 @@ export const projects: Project[] = [
       "Built mobile beta in Flutter; raised entrepreneurship grant from Università Bocconi",
     ],
     liveUrl: "https://by-trace.com",
+    image: {
+      src: "/projects/trace-profile.png",
+      alt: "Trace app profile screen showing visited countries map, travel stats, and top spots",
+      width: 470,
+      height: 1024,
+    },
     featured: true,
   },
   {
@@ -72,6 +84,12 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://kkam717.github.io/brown-housing-site/",
     githubUrl: "https://github.com/kkam717/brown-housing-site",
+    image: {
+      src: "/projects/brown-housing.png",
+      alt: "Brown Housing Lottery Demystified homepage with search, filters, and popular dorm listings",
+      width: 1024,
+      height: 662,
+    },
     featured: true,
   },
   {
@@ -93,6 +111,12 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://kkam717.github.io/doodlejump/",
     githubUrl: "https://github.com/kkam717/doodlejump",
+    image: {
+      src: "/projects/doodlehop-hop.png",
+      alt: "DoodleHopHop gameplay with graph-paper background and colored platforms",
+      width: 580,
+      height: 1024,
+    },
     featured: false,
   },
   {

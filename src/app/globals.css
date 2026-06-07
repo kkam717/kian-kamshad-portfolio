@@ -72,6 +72,23 @@ body {
   color: var(--navy);
 }
 
+/* Selection for readable content only — not nav, buttons, or tile links */
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+nav,
+header,
+footer,
+label,
+img,
+svg,
+a.inline-flex,
+a.flex[class*="min-h-"] {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 .font-serif {
   font-family: var(--font-garamond), Georgia, "Times New Roman", serif;
   font-feature-settings: "liga" 1, "kern" 1;
