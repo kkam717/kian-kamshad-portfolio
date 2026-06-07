@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { HeroPortrait } from "@/components/HeroPortrait";
 import { PageContainer } from "@/components/PageContainer";
 
 export function Hero() {
@@ -10,23 +10,7 @@ export function Hero() {
         <div className="animate-fade-up animate-delay-1 relative order-first mx-auto w-full max-w-[280px] sm:max-w-[320px] md:order-last md:max-w-[380px]">
           <div className="rounded-sm border border-gold/40 p-2 sm:p-3">
             <div className="border border-navy/20 p-1">
-              <div className="group relative overflow-hidden bg-ivory">
-                <Image
-                  src="/portrait.png"
-                  alt="Pixel art portrait of Kian Kamshad"
-                  width={380}
-                  height={380}
-                  className="pixel-art h-auto w-full object-cover transition-opacity duration-200 md:group-hover:opacity-0"
-                  priority
-                />
-                <Image
-                  src="/portrait-hover.png"
-                  alt="Pixel art portrait of Kian Kamshad giving a thumbs up"
-                  width={380}
-                  height={380}
-                  className="pixel-art absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-200 md:group-hover:opacity-100"
-                />
-              </div>
+              <HeroPortrait />
             </div>
           </div>
         </div>
