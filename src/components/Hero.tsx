@@ -36,7 +36,7 @@ export function Hero() {
             Portfolio · Design & Product · 2026
           </p>
           <h1 className="animate-fade-up animate-delay-1 mt-3 font-serif text-4xl font-semibold leading-[1.05] tracking-tight text-navy sm:mt-4 sm:text-5xl md:text-6xl lg:text-7xl">
-            Kian
+            Kian Alexander
             <br />
             Kamshad<span className="text-gold">.</span>
           </h1>

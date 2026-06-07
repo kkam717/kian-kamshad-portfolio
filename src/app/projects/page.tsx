@@ -7,7 +7,7 @@ import { projects } from "@/data/projects";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Selected work by Kian Kamshad — Trace travel app, Brown Housing Lottery, and more.",
+    "Selected work by Kian Kamshad: Trace travel app, Brown Housing Lottery, and more.",
 };
 
 export default function ProjectsPage() {

@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import {
-  Cormorant_Garamond,
-  JetBrains_Mono,
-  Source_Sans_3,
+  EB_Garamond,
+  IBM_Plex_Mono,
+  Source_Serif_4,
 } from "next/font/google";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
@@ -10,20 +10,20 @@ import { MobileTabBar } from "@/components/MobileTabBar";
 import { siteConfig } from "@/data/site";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
+const garamond = EB_Garamond({
+  variable: "--font-garamond",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
-const sourceSans = Source_Sans_3({
-  variable: "--font-source",
+const sourceSerif = Source_Serif_4({
+  variable: "--font-serif-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
 });
 
-const jetbrains = JetBrains_Mono({
-  variable: "--font-jetbrains",
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
   subsets: ["latin"],
   weight: ["400", "500"],
 });
@@ -38,7 +38,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.shortName} — Portfolio`,
+    default: `${siteConfig.shortName} Portfolio`,
     template: `%s · ${siteConfig.shortName}`,
   },
   description: siteConfig.tagline,
@@ -68,7 +68,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${sourceSans.variable} ${jetbrains.variable} h-full antialiased`}
+      className={`${garamond.variable} ${sourceSerif.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream text-navy">
         <Navigation />

@@ -8,7 +8,7 @@ import { PageContainer } from "@/components/PageContainer";
 export const metadata: Metadata = {
   title: "Squash Ball Rebound Research",
   description:
-    "Research on the coefficient of restitution in squash balls — Zenit Lab, Brown University.",
+    "Research on the coefficient of restitution in squash balls, Zenit Lab, Brown University.",
 };
 
 const hypotheses = [
@@ -121,7 +121,7 @@ export default function SquashWriteupPage() {
             <p>
               The objective of this research was to understand the relationship
               between coefficients of restitution and the physical attributes of
-              squash balls — helping players select ball type, age, and
+              squash balls, helping players select ball type, age, and
               temperature with clearer evidence. Given pre- and post-impact
               velocities for each ball and condition, a coefficient of
               restitution (CoR) can be calculated to measure bounciness under
@@ -161,7 +161,7 @@ export default function SquashWriteupPage() {
               fps.
             </p>
             <p>
-              Four squash balls were tested — two single-dot and two double-dot,
+              Four squash balls were tested: two single-dot and two double-dot,
               including one new and one old ball of each type. Each ball was
               fired at room temperature (22 °C) and when heated (35 °C) using an
               electric heating blanket; temperature was recorded with a laser
@@ -303,12 +303,12 @@ export default function SquashWriteupPage() {
               CoR as a function of initial velocity decreases, and this effect
               is more prominent at 35 °C than at 22 °C. Across all analyses,
               temperature is the greatest factor: at a given velocity, higher
-              temperatures consistently yield higher e — consistent with the
+              temperatures consistently yield higher e, consistent with the
               initial hypothesis.
             </p>
             <p>
               Ball type and age show small apparent differences that are
-              statistically insignificant — surprising given how much players
+              statistically insignificant, surprising given how much players
               emphasise both factors. These findings should be treated cautiously
               because several variables changed when producing averages and
               sample sizes were small.
@@ -342,7 +342,7 @@ export default function SquashWriteupPage() {
             <p>
               The next stage is determining how CoR affects player agility in
               match conditions. Matches will be recorded with players using balls
-              of known CoR — varying ball type and temperature — using a
+              of known CoR, varying ball type and temperature, using a
               wide-angle camera mounted on the back wall. Player motion can then
               be tracked to measure average speed and total distance travelled,
               indicating whether players move more and rallies last longer with

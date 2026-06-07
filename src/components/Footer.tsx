@@ -43,7 +43,13 @@ export function Footer() {
         </div>
 
         <p className="font-mono text-[10px] text-slate sm:text-xs">
-          © {year} · kiankamshad.com
+          © {year} ·{" "}
+          <Link
+            href={siteConfig.url}
+            className="link-underline hover:text-navy"
+          >
+            {siteConfig.url.replace("https://", "")}
+          </Link>
         </p>
       </PageContainer>
     </footer>

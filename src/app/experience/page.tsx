@@ -7,7 +7,7 @@ import { siteConfig } from "@/data/site";
 export const metadata: Metadata = {
   title: "Experience",
   description:
-    "Education, employment, and skills — Kian Alexander Kamshad's professional background.",
+    "Education, employment, and skills: Kian Alexander Kamshad's professional background.",
 };
 
 export default function ExperiencePage() {
@@ -47,7 +47,7 @@ export default function ExperiencePage() {
                     {entry.details.map((detail) => (
                       <li
                         key={detail}
-                        className="text-sm text-slate before:mr-2 before:text-gold before:content-['—']"
+                        className="flex gap-3 text-sm text-slate before:mt-2 before:h-1 before:w-1 before:shrink-0 before:bg-gold before:content-['']"
                       >
                         {detail}
                       </li>
@@ -123,7 +123,7 @@ export default function ExperiencePage() {
               {siteConfig.languages.map((lang) => (
                 <li key={lang.name} className="text-sm text-slate">
                   <span className="text-navy">{lang.name}</span>
-                  <span className="text-slate/60"> — {lang.level}</span>
+                  <span className="text-slate/60">, {lang.level}</span>
                 </li>
               ))}
             </ul>

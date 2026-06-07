@@ -24,9 +24,9 @@
   --color-gold-light: var(--gold-light);
   --color-slate: var(--slate);
   --color-line: var(--line);
-  --font-serif: var(--font-cormorant);
-  --font-sans: var(--font-source);
-  --font-mono: var(--font-jetbrains);
+  --font-serif: var(--font-garamond);
+  --font-sans: var(--font-serif-body);
+  --font-mono: var(--font-plex-mono);
 }
 
 * {
@@ -41,8 +41,9 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-source), system-ui, sans-serif;
-  line-height: 1.6;
+  font-family: var(--font-serif-body), Georgia, "Times New Roman", serif;
+  font-feature-settings: "liga" 1, "kern" 1;
+  line-height: 1.65;
 }
 
 .safe-top {
@@ -72,11 +73,12 @@ body {
 }
 
 .font-serif {
-  font-family: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  font-family: var(--font-garamond), Georgia, "Times New Roman", serif;
+  font-feature-settings: "liga" 1, "kern" 1;
 }
 
 .font-mono {
-  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-family: var(--font-plex-mono), "Courier New", monospace;
 }
 
 .pixel-art {
@@ -103,7 +105,7 @@ body {
 }
 
 .section-number {
-  font-family: var(--font-jetbrains), monospace;
+  font-family: var(--font-plex-mono), monospace;
   font-size: 0.75rem;
   letter-spacing: 0.2em;
   color: var(--gold);

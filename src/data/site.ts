@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Kian Alexander Kamshad",
   shortName: "Kian Kamshad",
   url: "https://kiankamshad.com",
-  tagline: "Portfolio of Kian Alexander Kamshad — projects, experience, and contact.",
+  tagline: "Portfolio of Kian Alexander Kamshad: projects, experience, and contact.",
   locations: ["London", "New York City"],
   email: "kiankamshad717@gmail.com",
   workEmail: "kian@by-trace.com",
@@ -12,7 +12,7 @@ export const siteConfig = {
   phoneUS: "+19173633951",
   addresses: [
     { label: "London", line: "27 Addison Avenue, W11 4QS" },
-    { label: "New York", line: "324 W 83rd St, 10024" },
+    { label: "New York", line: "324 W 83rd St, Apt 6S, 10024" },
   ],
   citizenships: ["USA", "United Kingdom"],
   bio: {
@@ -20,7 +20,7 @@ export const siteConfig = {
       "Computer science graduate working across consumer products, internal tools, and applied research.",
     paragraphs: [
       "I studied Computer Science at Brown University, including a year in industry as a software engineer at Airbus in Bristol, where I developed internal tooling and validation systems for engineering teams. I have also worked in mobile development at Rocket Lawyer, automation consulting at Parus Finance, and full-stack development at Educai.",
-      "I am currently co-founding Trace, a social travel app, and have contributed to applied research in sports engineering at Brown. I am most engaged where product requirements meet technical implementation—building software that teams adopt and measuring outcomes against clear, practical constraints.",
+      "I am currently co-founding Trace, a social travel app, and have contributed to applied research in sports engineering at Brown. I am most engaged where product requirements meet technical implementation, building software that teams adopt and measuring outcomes against clear, practical constraints.",
     ],
   },
   interests: [
