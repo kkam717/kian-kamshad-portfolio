@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useEffect, useId, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { Project } from "@/data/projects";
 
 type ProjectPreviewProps = {
@@ -10,7 +10,6 @@ type ProjectPreviewProps = {
 
 export function ProjectPreview({ image }: ProjectPreviewProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const titleId = useId();
 
   const close = useCallback(() => setIsOpen(false), []);
 
@@ -49,9 +48,6 @@ export function ProjectPreview({ image }: ProjectPreviewProps) {
                 height={image.height}
                 className="max-h-full max-w-full object-contain transition-opacity group-hover/preview:opacity-90"
               />
-              <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/50 to-transparent px-2 py-2 font-mono text-[9px] uppercase tracking-wider text-cream opacity-0 transition-opacity group-hover/preview:opacity-100 sm:text-[10px]">
-                Click to expand
-              </span>
             </div>
           </div>
         </button>
@@ -62,7 +58,7 @@ export function ProjectPreview({ image }: ProjectPreviewProps) {
           className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-8"
           role="dialog"
           aria-modal="true"
-          aria-labelledby={titleId}
+          aria-label={image.alt}
         >
           <button
             type="button"
@@ -86,13 +82,6 @@ export function ProjectPreview({ image }: ProjectPreviewProps) {
                 </div>
               </div>
             </div>
-
-            <p
-              id={titleId}
-              className="mt-3 text-center font-mono text-[10px] uppercase tracking-wider text-cream sm:text-xs"
-            >
-              {image.alt}
-            </p>
 
             <button
               type="button"
