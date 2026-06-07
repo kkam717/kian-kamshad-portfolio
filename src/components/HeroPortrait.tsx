@@ -23,7 +23,7 @@ export function HeroPortrait() {
         alt="Pixel art portrait of Kian Kamshad"
         width={380}
         height={380}
-        className={`pixel-art h-auto w-full object-cover transition-opacity duration-200 md:group-hover:opacity-0 ${
+        className={`pixel-art h-auto w-full object-cover transition-opacity duration-200 md:opacity-100 md:group-hover:opacity-0 ${
           showAlternate ? "max-md:opacity-0" : "max-md:opacity-100"
         }`}
         priority
@@ -33,7 +33,7 @@ export function HeroPortrait() {
         alt="Pixel art portrait of Kian Kamshad giving a thumbs up"
         width={380}
         height={380}
-        className={`pixel-art absolute inset-0 h-full w-full object-cover transition-opacity duration-200 md:group-hover:opacity-100 ${
+        className={`pixel-art absolute inset-0 h-full w-full object-cover transition-opacity duration-200 md:opacity-0 md:group-hover:opacity-100 ${
           showAlternate ? "max-md:opacity-100" : "max-md:opacity-0"
         }`}
       />
