@@ -75,6 +75,27 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "doodlehop-hop",
+    title: "DoodleHopHop",
+    subtitle: "Doodle Jump clone — desktop and browser",
+    year: "2024–2026",
+    type: "Game · JavaFX & HTML5 Canvas",
+    role: "Solo developer",
+    status: "Live · browser + desktop installers",
+    description:
+      "A Doodle Jump clone that started as a JavaFX coursework assignment and grew into a cross-platform release: play in the browser, download native installers for macOS and Windows, and compete on a global leaderboard. Six platform types, auto-scrolling camera, and graph-paper styling keep the feel close to the original Lima Sky game.",
+    highlights: [
+      "Six platform behaviors: normal, bouncy, horizontal-moving, vertical-moving, disappearing, and bounce-then-break",
+      "Desktop app in JavaFX with Maven build and jpackage installers for macOS (.dmg) and Windows (.exe)",
+      "Browser port on HTML5 Canvas with the same physics and tuning constants as the desktop version",
+      "Global leaderboard with usernames, backed by PostgreSQL in production and JSON locally",
+      "Deployed web app on GitHub Pages with a Node/Express backend on Render for scores and downloads",
+    ],
+    liveUrl: "https://kkam717.github.io/doodlejump/",
+    githubUrl: "https://github.com/kkam717/doodlejump",
+    featured: false,
+  },
+  {
     slug: "wrf-selection-workflow",
     title: "WRF Selection Workflow",
     subtitle: "Guided configuration for internal engineering teams",
