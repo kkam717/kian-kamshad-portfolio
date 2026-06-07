@@ -7,21 +7,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[[redirects]]
-  from = "http://kiankamshad.com/*"
-  to = "https://kiankamshad.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.kiankamshad.com/*"
-  to = "https://kiankamshad.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.kiankamshad.com/*"
-  to = "https://kiankamshad.com/:splat"
-  status = 301
-  force = true
