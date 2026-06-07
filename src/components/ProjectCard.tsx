@@ -109,6 +109,17 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             ))}
           </ul>
 
+          <div className="mt-4 flex flex-wrap gap-2 sm:mt-5">
+            {project.skills.map((skill) => (
+              <span
+                key={skill}
+                className="border border-line px-2.5 py-1 font-mono text-[10px] uppercase tracking-wider text-slate"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+
           <div className="mt-3 flex flex-col gap-1 font-mono text-[10px] uppercase tracking-wider text-slate sm:mt-4 sm:flex-row sm:flex-wrap sm:gap-x-4 sm:gap-y-1">
             <span>{project.role}</span>
             <span className="hidden sm:inline">·</span>

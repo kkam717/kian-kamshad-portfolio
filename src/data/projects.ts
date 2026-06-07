@@ -8,6 +8,7 @@ export type Project = {
   status: string;
   description: string;
   highlights: string[];
+  skills: string[];
   liveUrl?: string;
   githubUrl?: string;
   pdfUrl?: string;
@@ -37,6 +38,7 @@ export const projects: Project[] = [
       "Attach tickets, passes, accommodation, and notes to the right part of the journey",
       "Built mobile beta in Flutter; raised entrepreneurship grant from Università Bocconi",
     ],
+    skills: ["Flutter", "Product design", "Figma", "Go-to-market", "Cursor"],
     liveUrl: "https://by-trace.com",
     image: {
       src: "/projects/trace-profile.png",
@@ -63,6 +65,7 @@ export const projects: Project[] = [
       "CoR decreased as impact velocity increased, with a stronger effect at higher temperatures",
       "Built MATLAB tooling to track ball position over time and convert pixel coordinates to real distances",
     ],
+    skills: ["MATLAB", "Python", "Statistical analysis", "High-speed imaging", "Research"],
     liveUrl: "/projects/squash-rebound-research",
     featured: false,
   },
@@ -82,6 +85,7 @@ export const projects: Project[] = [
       "Peer reviews as generational housing knowledge",
       "Self-contained deployment with no server dependencies",
     ],
+    skills: ["JavaScript", "Frontend", "Search & filtering", "GitHub Pages"],
     liveUrl: "https://kkam717.github.io/brown-housing-site/",
     githubUrl: "https://github.com/kkam717/brown-housing-site",
     image: {
@@ -109,6 +113,7 @@ export const projects: Project[] = [
       "Global leaderboard with usernames, backed by PostgreSQL in production and JSON locally",
       "Deployed web app on GitHub Pages with a Node/Express backend on Render for scores and downloads",
     ],
+    skills: ["Java", "JavaFX", "JavaScript", "HTML5 Canvas", "Node.js", "PostgreSQL", "Maven"],
     liveUrl: "https://kkam717.github.io/doodlejump/",
     githubUrl: "https://github.com/kkam717/doodlejump",
     image: {
@@ -137,6 +142,7 @@ export const projects: Project[] = [
       "Serialised complex fields cleanly to keep the database queryable downstream",
       "Iterated on interaction patterns with engineering teams acting as both designers and users",
     ],
+    skills: ["React", "Python", "FastAPI", "Full-stack", "UX design", "SQL"],
     featured: false,
   },
   {
@@ -155,6 +161,7 @@ export const projects: Project[] = [
       "Photoshop compositing portfolio including Mandalorian edits, original scenes, and channel branding work",
       "Inhibitor Chips (2026), a narrative edit on the tragedy of Arc Trooper CT-5555",
     ],
+    skills: ["Adobe CC", "Video editing", "Photoshop compositing", "Storytelling", "Directing"],
     liveUrl: "https://www.youtube.com/@kamelianproductions9671",
     featured: false,
   },
@@ -176,6 +183,7 @@ export const projects: Project[] = [
       "Planned retrieval-based architecture with embeddings and namespaces to scale across categories",
       "Validated parsing and PDF table extraction directly against the firm's prior submissions",
     ],
+    skills: ["Python", "TypeScript", "OpenAI API", "PDF extraction", "Embeddings", "Full-stack"],
     featured: false,
   },
 ];
