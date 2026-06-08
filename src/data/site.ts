@@ -20,7 +20,7 @@ export const siteConfig = {
       "Computer science graduate working across consumer products, internal tools, and applied research.",
     paragraphs: [
       "I studied Computer Science at Brown University, including a year in industry as a software engineer at Airbus in Bristol, where I developed internal tooling and validation systems for engineering teams. I have also worked in mobile development at Rocket Lawyer, automation consulting at Parus Finance, and full-stack development at Educai.",
-      "I am currently co-founding Trace, a social travel app, and have contributed to applied research in sports engineering at Brown. I am most engaged where product requirements meet technical implementation, building software that teams adopt and measuring outcomes against clear, practical constraints.",
+      "I am currently working on Trace, a social travel app, and have contributed to applied research in sports engineering at Brown. I am most engaged where product requirements meet technical implementation, building software that teams adopt and measuring outcomes against clear, practical constraints.",
     ],
   },
   interests: [
