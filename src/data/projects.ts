@@ -29,14 +29,14 @@ export const projects: Project[] = [
     year: "2026",
     type: "Consumer mobile app",
     role: "Co-founder, product",
-    status: "Early access beta",
+    status: "Live on iOS & Android",
     description:
       "Most trip planning still lives in group chats, screenshots, and generic listicles. Trace is a social trip planner for people who trust real routes from friends and travelers they follow: discover complete itineraries, copy a route in one tap, invite your group, and keep bookings, passes, stops, and decisions in one shared workspace.",
     highlights: [
       "Discover public itineraries with destinations, days, stops, and traveler context",
       "Clone a trip, edit the route, adjust dates, and invite your group into one place",
       "Attach tickets, passes, accommodation, and notes to the right part of the journey",
-      "Built mobile beta in Flutter; raised entrepreneurship grant from Università Bocconi",
+      "Shipped Flutter app on the App Store and Google Play; raised entrepreneurship grant from Università Bocconi",
     ],
     skills: ["Flutter", "Product design", "Figma", "Go-to-market", "Cursor"],
     liveUrl: "https://by-trace.com",
